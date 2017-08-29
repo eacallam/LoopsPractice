@@ -1,0 +1,6 @@
+c:\users\wecancodeit\documents\visual studio 2015\Projects\LoopsPractice\LoopsPractice\bin\Debug\LoopsPractice.exe.config
+c:\users\wecancodeit\documents\visual studio 2015\Projects\LoopsPractice\LoopsPractice\bin\Debug\LoopsPractice.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\LoopsPractice\LoopsPractice\bin\Debug\LoopsPractice.pdb
+c:\users\wecancodeit\documents\visual studio 2015\Projects\LoopsPractice\LoopsPractice\obj\Debug\LoopsPractice.csprojResolveAssemblyReference.cache
+c:\users\wecancodeit\documents\visual studio 2015\Projects\LoopsPractice\LoopsPractice\obj\Debug\LoopsPractice.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\LoopsPractice\LoopsPractice\obj\Debug\LoopsPractice.pdb
