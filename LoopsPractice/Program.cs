@@ -385,23 +385,23 @@ namespace LoopsPractice
             //Check to see if M is greater than N. If M is not larger than N have the users enter new numbers.
             //Between N and M find all the numbers that are Multiple  of 3 and print those numbers to the console.
 
-            int N = 0;
-            int M = 0;
+            //int N = 0;
+            //int M = 0;
 
-            while(M <= N)
-            {
-                Console.WriteLine("Please make sure M is bigger than N.");
-                Console.WriteLine("Please enter an integer (N).");
-                N = int.Parse(Console.ReadLine());
-                Console.WriteLine("Please enter another integer (M).");
-                M = int.Parse(Console.ReadLine());
-            }
+            //while(M <= N)
+            //{
+            //    Console.WriteLine("Please make sure M is bigger than N.");
+            //    Console.WriteLine("Please enter an integer (N).");
+            //    N = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("Please enter another integer (M).");
+            //    M = int.Parse(Console.ReadLine());
+            //}
 
-            for(int i = N; i <= M; i++)
-                if (i % 3 == 0)
-                {
-                    Console.WriteLine(i);
-                }
+            //for(int i = N; i <= M; i++)
+            //    if (i % 3 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
 
 
 
