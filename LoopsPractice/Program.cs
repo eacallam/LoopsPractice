@@ -245,7 +245,7 @@ namespace LoopsPractice
             //    }
             //}
 
-//Practice: Print the numbers 1 - 100
+            //Practice: Print the numbers 1 - 100
             //If the number is a multiple of 3, print fizz
             //If the number is a multiple of 5, print buzz
             //If the number is a multiple of both, print fizzbuzz
@@ -266,7 +266,7 @@ namespace LoopsPractice
             //    theNumber++;
             //}
 
-//Another version of FizzBuzz
+            //Another version of FizzBuzz
             //for (int i = 1; i <= 100; i++)
             //    if (i % 15 == 0)
             //    {
@@ -284,9 +284,9 @@ namespace LoopsPractice
             //    {
             //        Console.WriteLine(i);
             //    }
-            
-//Create an int array with 10 elements 
-//find the mean of these elements and output the result to the console 
+
+            //Create an int array with 10 elements 
+            //find the mean of these elements and output the result to the console 
 
             //int[] myArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             //int myArrayTotal = 0;
@@ -297,42 +297,114 @@ namespace LoopsPractice
             //float myArrayAverage = myArrayTotal / myArray.Length;
             //Console.WriteLine(myArrayAverage);
 
-//Nesting practice: usually start with i and then go to j
+            //Nesting practice: usually start with i and then go to j
 
-//            for(int i = 1; i <= 2; i++)
-//            {
-//                for (int j = 1; j <= 4; j++)
-//                {
-//                    Console.Write(j); //columns
-//                }
-//                Console.WriteLine(); //rows - starts the next row for you
-//            }
-//            //Print a triangle
-//            int n = 4; //number of rows and columns
-//            for (int row = 1; row <= n; row++)
-//            {
-//                for(int col = 1; col <=row; col++) //keeps going further as n increases
-//                {
-//                    Console.Write(col + " ");
-//                }
-//                Console.WriteLine();
-//            }
+            //            for(int i = 1; i <= 2; i++)
+            //            {
+            //                for (int j = 1; j <= 4; j++)
+            //                {
+            //                    Console.Write(j); //columns
+            //                }
+            //                Console.WriteLine(); //rows - starts the next row for you
+            //            }
+
+
+            //            //Print a triangle
+            //            int n = 4; //number of rows and columns
+            //            for (int row = 1; row <= n; row++)
+            //            {
+            //                for(int col = 1; col <=row; col++) //keeps going further as n increases
+            //                {
+            //                    Console.Write(col + " ");
+            //                }
+            //                Console.WriteLine();
+            //            }
             //Write a program that prints a multiplication table (5 x 5, for example) using a nested loops.
-            for (int i = 1; i <= 5; i++)
-            {
-                for (int j = 1; j <= 5; j++)
-                {
-                    Console.Write(j * i + " "); //columns
-                }
-                Console.WriteLine(); //rows - starts the next row for you
-            }
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    for (int j = 1; j <= 5; j++)
+            //    {
+            //        Console.Write(j * i + " "); //columns. can also do: Console.Write("{0} x {1}", i, j); (the 0 and 1 are placeholders)
+            //    }
+            //    Console.WriteLine(); //rows - starts the next row for you
+            //}
 
-            //Create an array of your favorite movies.Print out each movie in the list, unless the move starts with a vowel. 
+            //Create an array of your favorite movies. Print out each movie in the list, unless the movie starts with a vowel. 
             //Hint: Research.startsWith()
+            //string[] favoriteMovies = { "Jane Eyre", "Charlie and the Chocolate Factory", "The Big Sad", "Edward Scissorhands" };
 
+            //foreach (string movie in favoriteMovies)
+            //{
+
+            //    if (movie.StartsWith("a", StringComparison.CurrentCultureIgnoreCase) || movie.StartsWith("e", StringComparison.CurrentCultureIgnoreCase) || movie.StartsWith("i", StringComparison.CurrentCultureIgnoreCase) || movie.StartsWith("o", StringComparison.CurrentCultureIgnoreCase) || movie.StartsWith("u", StringComparison.CurrentCultureIgnoreCase))
+            //    {
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(movie);
+            //    }
+
+            //}
 
             //Write a console application that asks the user for an integer. 
             //If that integer is evenly divisible by 3, then write “You Won!” If it isn’t, write “You Lost.” Keep asking them for a number (looping)until they win.
+
+            //bool keepPlaying = true;
+
+            //while(keepPlaying == true)
+            //{
+            //    Console.WriteLine("Please enter an integer.");
+            //    int userInteger = int.Parse(Console.ReadLine());
+
+            //    if (userInteger % 3 == 0)
+            //    {
+            //        Console.WriteLine("You win!");
+            //        keepPlaying = false;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("You Lost. Try again.");
+            //    }
+
+            //}
+
+            //Another console application
+            //Console.WriteLine("Please enter an integer.");
+            //int userInteger = int.Parse(Console.ReadLine());
+
+            //while(userInteger %3 !=0)
+            //{
+            //    Console.WriteLine("You lose. Try again.");
+            //    userInteger = int.Parse(Console.ReadLine());
+            //}
+
+            //Console.WriteLine("You win!");
+
+            //Practice:
+            //Write a Program and ask the user for 2 numbers(N and M) 
+            //Check to see if M is greater than N. If M is not larger than N have the users enter new numbers.
+            //Between N and M find all the numbers that are Multiple  of 3 and print those numbers to the console.
+
+            int N = 0;
+            int M = 0;
+
+            while(M <= N)
+            {
+                Console.WriteLine("Please make sure M is bigger than N.");
+                Console.WriteLine("Please enter an integer (N).");
+                N = int.Parse(Console.ReadLine());
+                Console.WriteLine("Please enter another integer (M).");
+                M = int.Parse(Console.ReadLine());
+            }
+
+            for(int i = N; i <= M; i++)
+                if (i % 3 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+
+
+
         }
     }
   }
